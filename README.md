@@ -16,3 +16,8 @@ La façon de créer une class est particulière par rapport aux autres languages
 La façon dont fonctionne public, privé et (je ne l'ai pas encore vu) protected est un bonheur absolu. Je trouve cette façon de faire bien plus propre que tous les autres languages. 
 Le :: est aussi incroyable car je différencie plus facilement une class d'une fonction. Après la couleur de vs suffit mais c'est toujours un +.
 
+## Jour 2 (léger retard)
+**Contenue :**
+J'ai appris le reste des bases de c++ :
+  - Ecrire sur un fichier
+  - Les Pointeurs, adresses
