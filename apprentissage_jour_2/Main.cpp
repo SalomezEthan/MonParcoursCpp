@@ -10,7 +10,7 @@
 int main()
 {
 	// Ecrire dans un fichier
-	const std::string path = "C:/Users/aisuh/Documents/Juste un test/un_text.txt";
+	const std::string path = "./path";
 
 	const std::string content = Utils::input("Ce que tu rajoutes : ");
 	File::write(path, content);
