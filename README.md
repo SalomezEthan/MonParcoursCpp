@@ -21,3 +21,6 @@ Le :: est aussi incroyable car je différencie plus facilement une class d'une f
 J'ai appris le reste des bases de c++ :
   - Ecrire sur un fichier
   - Les Pointeurs, adresses
+
+**je retiens :**
+J'ai du mal à savoir à quoi servent les adresses étant donné qu'une variable locale à tout de même une durée de vie. Entre autre, la mémoire se libère (pas systématiquement) automatiquement. Je dois juste faire attention à ne pas en rajouter pour rien (comme dans tous les languages de programmation finalement). Ecrire dans un fichier est très simple en c++. Je trouve cette façon de faire même plus simple que Python pour dire (je n'aime pas with). vraiment : ifstream et of stream => masterclass
