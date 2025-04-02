@@ -5,12 +5,10 @@
 #include "Utils.hpp"
 #include "File.hpp"
 
-
-
 int main()
 {
 	// Ecrire dans un fichier
-	const std::string path = "./path";
+	const std::string path = "{path}";
 
 	const std::string content = Utils::input("Ce que tu rajoutes : ");
 	File::write(path, content);
@@ -29,6 +27,15 @@ int main()
 	std::cout << &pointeur << std::endl; // Affiche l'adresse du pointeur et non l'adresse pointée.
 
 	std::cout << *pointeur << std::endl; // affiche la valeur de l'adresse pointée. (déferencement)
+
+	// crée un pointeur qui pointe vers un entier qu'on initialise
+	int *newPointer = 0;
+	newPointer = new int;
+
+	// supprime le pointeur et NE PAS OUBLIER DE SUPPRIIMER SA VALEUR
+	delete newPointer;
+	newPointer = 0;
+
 	return 0;
 }
 
